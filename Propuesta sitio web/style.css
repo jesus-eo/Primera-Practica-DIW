@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* header index*/
+header,nav,section,footer,aside,body{
+    border: 1px solid black;
+}
+body{
+    background: linear-gradient(cadetblue, white);
+    height: 100vh;
+}
+header{
+    background: linear-gradient(royalblue,white);
+   display: flex;
+}
+#logo-cabecera{
+    float:left ;
+    width: 50%;
+    text-align: center;
+    
+}
+#redes-cabecera{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+    
+}
+#redes, #login{
+    display: flex;
+    align-self: end;
+    
+    
+  
+}
+ul{
+    list-style-type: none;
+    justify-content: space-around;
+}
+#redes > ul{
+    display: flex;
+    
+    
+    
+    
+}
+/*nav*/
+#nav-principal > ul{
+    display: flex;
+}
+/*main*/
+#cuerpo-central{
+    display: flex;
+}
+#sector-imagenes{
+    display: flex;
+    
+}
+#cuerpo-principal{
+    display: flex;
+}
+/*aside*/
+#cuerpo-lateral{
+    display: flex;
+}
+
+#container-central-footer{
+    display: flex;
+
+}
+footer{
+    background: grey;
+    color: white;
+}
+#container-inferior-footer{
+    display: flex;
+}
+/*container de footer*/
+#container-central-footer1{
+    display: flex;
+    flex-direction:column;
+    width: 20%;
+}
+#container-central-footer2{
+    display: flex;
+    flex-direction:column;
+    width: 20%;
+}
+#container-central-footer3{
+    display: flex;
+    flex-direction:column;
+    width: 20%;
+}
+#container-central-footer4{
+    display: flex;
+    flex-direction:column;
+    width: 20%;
+}
+#container-central-footer5{
+    display: flex;
+    flex-direction:column;
+    width: 20%;
+}
+
+/* Login.html*/
+
+#nav-login{
+    display: flex;
+}
+#form-nav-login{
+    
+    flex-direction: column;
+}
+.tabla-login > tr,td{
+    border: 1px solid black;
+}
+.tabla-login{
+    border: 1px solid black;
+    height: 150px;
+}
+/*Estructura_productos*/
+#main-estructura{
+    display: flex;
+}
+#aside-estructura{
+    display: flex;
+    float: left;
+    width: 30%;
+}
+#section-estructura{
+    display: flex;
+    float: right;
+    width: 90%;
+    flex-direction: column;
+}
